@@ -63,7 +63,6 @@ console.log(users);
 
 
 // Exercise 6 Section
-let sum = 0
 let total = users.reduce((sum, users) => {
     return sum + users.score
 }, 0)
